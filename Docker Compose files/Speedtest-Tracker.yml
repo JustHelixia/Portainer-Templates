@@ -17,7 +17,7 @@ services:
       - DB_PASSWORD=NicePasswordHere
       - DISPLAY_TIMEZONE=Europe/Amsterdam
       - CHART_DATETIME_FORMAT=d-m-o, H:i # day of the month-month-full year, 24-hours display with leading zeros, minutes with leading zeros (https://www.php.net/manual/en/datetime.format.php)
-      - DATETIME_FORMAT=l j F o, H:i #weekday, day of the month, fully wriiten month year, 24-hours display with leading zeros, minutes with leading zeros (https://www.php.net/manual/en/datetime.format.php)
+      - DATETIME_FORMAT=l j F o, H:i # weekday, day of the month, fully wriiten month year, 24-hours display with leading zeros, minutes with leading zeros (https://www.php.net/manual/en/datetime.format.php)
       - SPEEDTEST_SCHEDULE="0 * * * *" # Every hour, every day (https://it-tools.tech/crontab-generator)
       - PRUNE_RESULTS_OLDER_THAN=14
     volumes:
