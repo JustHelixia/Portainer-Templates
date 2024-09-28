@@ -1,0 +1,9 @@
+services:
+    server:
+        ports:
+            - 8080:80
+        environment:
+            - TZ=Europe/Amsterdam
+        volumes:
+            - /var/gotify/data:/app/data
+        image: gotify/server
