@@ -6,4 +6,4 @@ services:
             - TZ=Europe/Amsterdam
         volumes:
             - /var/gotify/data:/app/data
-        image: gotify/server
+        image: "gotify/server:latest"
