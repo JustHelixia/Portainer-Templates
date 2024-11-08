@@ -1,4 +1,4 @@
-<p>In this repo I will add my templates which I added to Portainer.
+<p>In this repo I will add my templates which I added to Portainer.<br>  
 I also might my container settings which I have in Proxmox.</p>
 
 <p>Updating Docker Compose images:<br>  
